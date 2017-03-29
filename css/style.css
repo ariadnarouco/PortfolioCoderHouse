@@ -1,7 +1,7 @@
 body{
 	margin: auto;
+}	
 
-}
 .encabezado{
 	padding: 20%;
 	background-color: #2C3E50;
@@ -62,14 +62,21 @@ body{
 }
 
 .about p{
-	text-align: center;
+	text-align: -webkit-left;
+	max-width: 50%;
 	float:right;
+	padding-left:10px;
+	box-sizing: border-box;
 }
 
 .about{
+	padding-left: 19.5%;
+    padding-right: 19.5%;
 	text-align: center;
 	background-color: #18bc9c;
-	padding:20px 0px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	line-height: 1.5;
 }
 
 .about h2{
@@ -80,5 +87,51 @@ body{
 	font-size: 20px;
 }
 .button{
-	padding-top:40px;
+	padding:40px 0px;
+}
+
+.button button{
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #18bc9c;
+    padding: 10px 15px;
+    color: white;
+}
+
+.formatoparrafo{
+	overflow: auto;
+	padding:20px;
+}
+ 
+.button i{
+	padding-right: 5px;
+}
+
+.contactame h2{
+	font-family: 'Montserrat', sans-serif;
+	color:black;
+	text-align: center;
+	font-size: 35px;
+	padding: 40px 0px 20px 0px;
+}
+.lineas{
+	display: block;
+	text-align: center;
+	font-size: 50px;
+}
+
+.lineas:before, .lineas:after{
+	content: "" :;
+	width: 100px;
+	background-color: black;
+	height: 3px;
+	top: -15px;
+	color: black;
+	position: relative;
+	display: inline-block;
+
+}
+
+.lineas span{
+	font-size: 40px;
 }
